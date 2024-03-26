@@ -218,7 +218,7 @@ const handleSend=async()=>{
             <KeyboardBackspaceIcon/>
           </IconButton>}
           {/* <p className='con-icon'>{!selectedChat?.isGroupChat &&<img />}</p> */}
-        <Avatar alt="Remy Sharp" src="/images/41919.jpg" />
+        <Avatar alt="Remy Sharp" src="public\image.jpeg" />
            
           <div className='header-text'>
             <p className=''>{selectedChat.chatName!=='sender'?
