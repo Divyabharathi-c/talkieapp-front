@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.homepage {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  background-color: red;
+  width: 90%;
+  height: 90%;
+}
+
+.pill {
+  display: flex;
+  width: fit-content;
+  background-color: lightblue;
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+
+  img {
+    height: auto;
+  }
+}
