@@ -4,7 +4,7 @@ import './myStyles.css'
 function Welcome() {
   return (
     <div className='welcome-container'>
-        <img src='/images/logo.gif'/>
+        <img src='/images/logo.jpg'/>
     </div>
   )
 }

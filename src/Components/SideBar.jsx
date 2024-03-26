@@ -104,7 +104,7 @@ const logout=()=>{
    {/* <IconButton onClick={handleOpenMenu}>
    <AccountCircleIcon/>
    </IconButton> */}
-   <img src="/images/logo.gif" alt="Logo" style={{height:'50px',width:'50px', margin:'10px', borderRadius:'50%',cursor: 'pointer'}}/>
+   <img src="/images/logo.jpg" alt="Logo" style={{height:'50px',width:'50px', margin:'10px', borderRadius:'50%',cursor: 'pointer'}}/>
    <Menu
           anchorEl={anchorEl}
           open={Boolean(anchorEl)}

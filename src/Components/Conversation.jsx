@@ -56,7 +56,7 @@ if(isSmallScreen){
       ) : (
         <>
         {/* <p className='con-icon'>{props.chatName.charAt(0)}</p> */}
-        <div className='con-icon'><Avatar alt={props.chatName} src="/static/images/logo.jpg" /></div>
+        <div className='con-icon'><Avatar alt={props.chatName} src="public\image.jpeg" /></div>
         <p className='con-title'>{props?.chatName}</p>
 
         <p className='con-latestMessage'>{props?.latestMessage?.content}</p>
