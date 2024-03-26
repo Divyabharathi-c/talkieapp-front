@@ -170,7 +170,7 @@ export default function SignIn() {
           {/* <Avatar sx={{ m: 1, bgcolor: 'blue' }}>
             <LockOutlinedIcon />
           </Avatar> */}
-          <img src="./images/logo.gif" alt="Logo" style={{height:'100px',width:'100px', margin:'10px'}} />
+          {/* <img src="./images/logo.gif" alt="Logo" style={{height:'100px',width:'100px', margin:'10px'}} /> */}
           <Typography component="h1" variant="h5">
             Login
           </Typography>

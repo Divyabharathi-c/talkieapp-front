@@ -47,7 +47,7 @@ if(isSmallScreen){
     {props.chatName === "sender" ? (
       <>
         {/* <p className='con-icon'>{props?.users[1]?.name.charAt(0)}</p> */}
-       <div className='con-icon'> <Avatar alt={props.users[1].name} src="./images/logo.gif" /></div>
+       <div className='con-icon'> <Avatar alt={props.users[1].name} src="./images/logo.jpg" /></div>
          <p className='con-title'>{props?.users[0]?.name}</p>
            <p className='con-latestMessage'>{props?.latestMessage?.content.slice(0,15)}</p>
         <p className='con-timeStamp'>{renderTimeOrDate(props.updatedAt)}</p>
@@ -56,7 +56,7 @@ if(isSmallScreen){
       ) : (
         <>
         {/* <p className='con-icon'>{props.chatName.charAt(0)}</p> */}
-        <div className='con-icon'><Avatar alt={props.chatName} src="/static/images/avatar/1.jpg" /></div>
+        <div className='con-icon'><Avatar alt={props.chatName} src="/static/images/logo.jpg" /></div>
         <p className='con-title'>{props?.chatName}</p>
 
         <p className='con-latestMessage'>{props?.latestMessage?.content}</p>
